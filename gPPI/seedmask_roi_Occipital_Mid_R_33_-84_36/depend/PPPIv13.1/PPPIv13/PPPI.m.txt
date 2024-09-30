@@ -1,0 +1,3 @@
+Replace line ~278 in PPPI.m with
+
+if ~strcmp(spm('Ver'),'SPM8') && ~strncmpi(spm('Ver'),'SPM12',5)
